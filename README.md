@@ -1,7 +1,7 @@
 PiNGPONG Video Contest
 ============
 
-Laravel Package for Create Video Contest App. This package is support for Laravel 4 or higher.
+Laravel Package for Create Video Contest App. This package is support for Laravel 4.1.*.
 
 Features
 ---------
