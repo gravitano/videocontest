@@ -20,15 +20,14 @@ Installation
 1. Download latest of Laravel PHP Framework [here](http://laravel.com)
 2. Open your `composer.json`, and add the new require below.
 
-    
-    `"require": {
-    		"laravel/framework": "4.1.*",
-    		
-    		"way/generators": "1.0.*@dev",
-    		"ruudk/twitter-oauth": "*"
-    },`
+    		"require": {
+	    		"laravel/framework": "4.1.*",
+	    		// i use ruudk for twitter API
+	    		"ruudk/twitter-oauth": "*",
+	    		// here is my package
+	    		"pingpong/videocontest": "dev-master"
+    		},
 
-	
 3. Next, do `composer install`.
 4. After the installation complete. Copy `seeds` and `migrations` folder to `app/database/` folder.
 5. Run:
