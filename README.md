@@ -28,7 +28,7 @@ Installation
 	    		"pingpong/videocontest": "dev-master"
     		},
 
-3. Next, do `composer install`.
+3. Next, do `composer install` on your terminal.
 4. After the installation complete. Copy `seeds` and `migrations` folder to `app/database/` folder.
 5. Run:
  - `php artisan migrate`
