@@ -33,7 +33,7 @@ Installation
 5. Run:
  - `php artisan migrate`
  - `php artisan db:seed`
-6. Last, add new provider 'Pingpong\Videocontest\VideocontestServiceProvider' to providers array on 'app/config/app.php'
+6. Last, add new provider `Pingpong\Videocontest\VideocontestServiceProvider` to providers array on 'app/config/app.php'
 7. Finish. Test run `php artisan serve`. Open `http://localhost:8000/` on your browser. 
 
 
