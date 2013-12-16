@@ -1,0 +1,26 @@
+{
+    "name": "pingpong/videocontest",
+    "description": "",
+    "authors": [
+        {
+            "name": "PINGPONG Labs",
+            "email": "pingpong.labs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers",
+            "src/models",
+            "src/views"
+        ],
+        "psr-0": {
+            "Pingpong\\Videocontest\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

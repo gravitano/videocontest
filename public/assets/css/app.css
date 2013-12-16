@@ -1,0 +1,36 @@
+.list-view{
+	width: 240px;
+	height: auto;
+	float: left;
+	padding: 10px;
+	list-style: none;
+}
+.btn{
+	margin: 1px;
+}
+.video-detail p{
+	overflow: auto;
+}
+.video-panel{
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+.text-caption{
+	font-size: 18px;
+}
+.gallery-paging{
+	clear: both;
+}
+.list-leaderboard{
+	width: 100%;
+}
+.list-leaderboard .video-embed{
+	float: left;
+}
+.list-leaderboard .video-detail,
+.list-leaderboard .video-panel{
+	float: left;
+	width: 75%;
+	margin-left: 10px;
+}
