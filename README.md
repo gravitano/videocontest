@@ -10,6 +10,7 @@ Features
 3. Share video  to Facebook and Twitter
 4. 1 user just can vote 1 video.
 5. Leaderboard Page
+6. Unique URL Video eg: `http://localhost:8000/v/234` , `http://localhost:8000/video/lorem-ipsum-dolor`
 
 Release
 --------
