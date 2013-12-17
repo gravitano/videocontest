@@ -37,7 +37,7 @@ Installation
 7. Run:
  - `php artisan config:publish pingpong/videocontest`
  - `php artisan asset:publish pingpong/videocontest`
-8. Finish. Test run `php artisan serve`. Open `http://localhost:8000/` on your browser. 
+8. For test, run `php artisan serve`. Open `http://localhost:8000/` on your browser. 
 
 
 Developer
