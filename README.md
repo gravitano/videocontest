@@ -48,6 +48,11 @@ Developer
 Note
 ---------
 1. Dont forget to empty default `routes.php` file from laravel on `[your-folder-laravel]/app/routes.php`
+2. Click [here](https://github.com/gravitano/videocontest/blob/master/src/config/app.php) to see config file
+
+Demo
+--------------
+[Demo Here](http://demo.pingpong.web.id/videocontest)
 
 Screenshot
 --------------
