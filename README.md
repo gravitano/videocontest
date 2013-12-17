@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 PiNGPONG Video Contest
 ============
 
@@ -44,9 +43,4 @@ Installation
 Developer
 ---------
 [Gravitano](https://github.com/gravitano)
-=======
-videocontest
-============
 
-Laravel 4 Video Contest App - Full Package
->>>>>>> 35d4a630bd5f3b1a7ce3abb17a6885c33f5911b2
