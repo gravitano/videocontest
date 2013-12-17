@@ -2,6 +2,7 @@
     "name": "pingpong/videocontest",
     "description": "Laravel 4 Video Contest App - Full Package",
     "keyword": ["videocontest", "pingpong", "laravel"],
+    "licence": "The MIT License (MIT)",
     "authors": [
         {
             "name": "PiNGPONG Labs",
