@@ -1,4 +1,4 @@
-PiNGPONG Video Contest
+PiNGPONG Video Contest App
 ============
 
 Laravel Package for Create Video Contest App. This package is support for Laravel 4.0 or higher.
@@ -29,11 +29,11 @@ Installation
     		},
 
 3. Next, run `composer install` on your terminal.
-4. After the installation complete. Copy `seeds` and `migrations` folder to `app/database/` folder.
-5. Run:
- - `php artisan migrate`
+4. After the installation complete. Copy `seeds` folder from `[your-folder-laravel]/vendor/pingpong/videocontest/src` to `[your-folder-laravel]app/database/` folder.
+5. Set yout database configuration on `[your-folder-laravel]/app/config/database.php`. Next, open your terminal and run:
+ - `php artisan migrate --package=pingpong/videocontest`
  - `php artisan db:seed`
-6. Next, add new provider `Pingpong\Videocontest\VideocontestServiceProvider` to providers array on 'app/config/app.php'
+6. Next, add new provider `Pingpong\Videocontest\VideocontestServiceProvider` to providers array on `[your-folder-laravel]app/config/app.php`
 7. Run:
  - `php artisan config:publish pingpong/videocontest`
  - `php artisan asset:publish pingpong/videocontest`
@@ -43,6 +43,10 @@ Installation
 Developer
 ---------
 [Gravitano](https://github.com/gravitano)
+
+Note
+---------
+1. Dont forget to empty default `routes.php` file from laravel on `[your-folder-laravel]/app/routes.php`
 
 Screenshot
 --------------
