@@ -1,11 +1,8 @@
 {
     "name": "pingpong/videocontest",
     "description": "Laravel 4 Full Package - Video Contest",
-<<<<<<< HEAD
     "keyword": ["videocontest", "pingpong", "laravel"],
-=======
     "keyword": ["videocontest", "pingpong", "video contest"],
->>>>>>> b80c073396d8b410a00effb3cf4447e750e149ff
     "authors": [
         {
             "name": "PINGPONG Labs",
@@ -14,12 +11,6 @@
     ],
     "require": {
         "php": ">=5.3.0"
-<<<<<<< HEAD
-=======
-    },
-    "require-dev":{
-        "illuminate/support": "4.*"  
->>>>>>> b80c073396d8b410a00effb3cf4447e750e149ff
     },
     "autoload": {
         "classmap": [
