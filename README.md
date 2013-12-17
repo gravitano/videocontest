@@ -1,7 +1,7 @@
 PiNGPONG Video Contest
 ============
 
-Laravel Package for Create Video Contest App. This package is support for Laravel 4.1.*.
+Laravel Package for Create Video Contest App. This package is support for Laravel 4.0 or higher.
 
 Features
 ---------
@@ -28,7 +28,7 @@ Installation
 	    		"pingpong/videocontest": "dev-master"
     		},
 
-3. Next, do `composer install` on your terminal.
+3. Next, run `composer install` on your terminal.
 4. After the installation complete. Copy `seeds` and `migrations` folder to `app/database/` folder.
 5. Run:
  - `php artisan migrate`
