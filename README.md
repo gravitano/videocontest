@@ -23,8 +23,6 @@ Installation
 
     		"require": {
 	    		"laravel/framework": "4.1.*",
-	    		// i use ruudk for twitter API
-	    		"ruudk/twitter-oauth": "*",
 	    		// here is my package
 	    		"pingpong/videocontest": "dev-master"
     		},
