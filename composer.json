@@ -1,7 +1,8 @@
 {
     "name": "pingpong/videocontest",
     "description": "Laravel 4 Video Contest App - Full Package",
-    "keyword": ["videocontest", "pingpong", "laravel"],
+    "homepage": "http://www.gravitano.com/laravel-4-video-contest-app",
+    "keywords": ["videocontest", "pingpong", "laravel"],
     "license": "The MIT License (MIT)",
     "authors": [
         {
