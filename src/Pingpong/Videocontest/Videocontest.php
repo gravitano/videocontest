@@ -79,19 +79,7 @@ class Videocontest {
 
  	public function leaderboard($status = 'A')
  	{
- 		// return Video::where('status', $status)
- 		// 	->paginate(Config::get('Videocontest::app.gallery.video-perpage'))
- 		// ;
  		$limit = Config::get('Videocontest::leaderboard.limit');
-		// $query = "SELECT V.id as video_id
-		//        ,COUNT(*) AS count
-		// 	FROM   videos V
-		// 	       LEFT OUTER JOIN votes P ON V.id = P.video_id
-		// 	GROUP BY
-		// 	       V.id
-		// 	ORDER BY count DESC LIMIT $limit";
-
-		// return DB::select($query);
 		return DB::table('videos')
 	        ->leftJoin('votes', 'videos.id', '=', 'votes.video_id')
 	        ->where('status', $status)
